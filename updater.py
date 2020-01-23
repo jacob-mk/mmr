@@ -2,7 +2,6 @@ class Player:
     def __init__(self,name,mmr):
         self.name = name
         self.mmr = mmr
-    #String representation of an Account object - "name: $balance"
     def __repr__(self):
         return self.name + ": " + str(self.mmr)
 
